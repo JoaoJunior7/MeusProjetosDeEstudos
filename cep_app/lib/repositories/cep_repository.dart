@@ -1,0 +1,5 @@
+import 'package:cep_app/model/endereco_model.dart';
+
+abstract class CepRepository {
+  Future<EnderecoModel> getCep(String cep);
+}
